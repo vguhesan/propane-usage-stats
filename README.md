@@ -27,8 +27,9 @@ This project assumes that you have successfully registered your device and you c
 
 # Installation Instructions
 
-*IMPORTANT*: 
-If you are not from EST (Eastern Standard Time) timezone, edit "collect_tank_statistics.py" and set the timezone variable correctly (line 19).
+*IMPORTANT - PLEASE READ*: 
+- If you are not from EST (Eastern Standard Time) timezone, edit "collect_tank_statistics.py" and set the timezone variable correctly (line 19).
+- If your tank capacity is NOT 1000 gallons, edit "collect_tank_statistics.py" and set the capacity variable to the correct number (line 42).
 
 ## First-Time Installation (one-time run)
 
