@@ -13,7 +13,7 @@ import json
 import sys
 import base64
 from datetime import datetime
-from tzlocal import get_localzone  # $ pip install tzlocal
+from tzlocal import get_localzone  
 import rfc3339
 
 # See full list of timezones:
@@ -81,8 +81,8 @@ if __name__ == "__main__":
     else:
         userid = sys.argv[1]
         password = sys.argv[2]
-        if userid == None or password == None:
-            print("You must provide a userid and password")
+        if (userid == None or password == None) or (userid == 'USERID' or password == 'PASSWORD'):
+            print("You must provide a valid userid and password")
             exit(0)
         else:
             # print(f"UserId: {userid}, Password: {password}")

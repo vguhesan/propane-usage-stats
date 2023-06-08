@@ -2,7 +2,12 @@
 Communicates to a Otodata device used by Thompson Gas to pull the tank stats
 
 # How-To / How does this work?
-If you examine your wireless transponder device (usually found in the green dome where your propane tank is either buried or located. Looks like a submarine hatch.), it will have an transponder that is manufactured by Otodata (it may have Thompson Gas logo or other logos on the device). Once you have identified it as a Otodata device and you have the activation code, you can download the "Nee-vo" app (available for both Android and ios devices). You will create a new account with a userid and password. As the next step, you will be asked to enter the "Acivation Code". This registers the deices under your account. Once you get the stats showing in the app, you can then proceed to using this API example provided here in this project.
+If you examine your wireless transponder device (usually found in the green dome where your propane tank is either buried or located. Looks like a submarine hatch), it will have an transponder that is manufactured by Otodata (it may have Thompson Gas logo or other logos on the device). Once you have identified it as a Otodata device and you have the activation code, you can download the "Nee-vo" app (available for both Android and iOS devices). You will create a new account with a userid and password. As the next step, you will be asked to enter the "Acivation Code". This registers the devices under your account. Once you get the stats showing in the app, you can then proceed to using this API example provided here in this project.
+
+<img src="./img/propane-hatch.jpg" alt="propane tank hatch" width="150">
+<img src="./img/sample-transponder.jpg" alt="sample transponder" width="150">
+<img src="./img/activation-code.jpg" alt="activation code" width="150">
+<img src="./img/app-screenshot.jpg" alt="app screenshot" width="150">
 
 This project assumes that you have successfully registered your device and you can see the stats in the app. You will need your userid and password to access the API.
 
